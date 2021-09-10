@@ -1,23 +1,18 @@
 //
-//  SecondViewController.swift
+//  HomeViewcontroller.swift
 //  week2
 //
-//  Created by 이유리 on 2021/09/07.
+//  Created by 이유리 on 2021/09/09.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class HomeViewcontroller: UIViewController {
 
-    @IBOutlet weak var tvData: UILabel!
-    
-    var text : String = "" //property
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.tvData.text = text
     }
     
 
@@ -30,4 +25,5 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 }

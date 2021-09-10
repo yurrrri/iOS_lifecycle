@@ -5,8 +5,7 @@ target 'week2' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'XLPagerTabStrip', '~> 9.0'
-
   # Pods for week2
+pod 'XLPagerTabStrip', '~> 9.0'
 
 end

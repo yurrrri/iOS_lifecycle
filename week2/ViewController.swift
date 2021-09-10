@@ -19,15 +19,18 @@ class ViewController: UIViewController {
 //        self.navigationController?.pushViewController(vc, animated: true)
         
         //present로 전달하는 방식
-        guard let vc = storyboard?.instantiateViewController(identifier: "secondViewController") as? SecondViewController else { return }
-
+        let vc = storyboard?.instantiateViewController(withIdentifier: "secondViewController") as! SecondViewController
+       // let vc = SecondViewController(nibName:"SecondViewController", bundle: nil)
+//        let vc = SecondViewController()
+        
         vc.text = self.propertyTextField.text ?? ""
 
         self.present(vc, animated: true)
+        
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
 }
