@@ -16,6 +16,8 @@
 		DAE94BB926E636B600575464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE94BB826E636B600575464 /* Assets.xcassets */; };
 		DAE94BBC26E636B600575464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE94BBA26E636B600575464 /* LaunchScreen.storyboard */; };
 		DAE94BC426E6725000575464 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE94BC326E6724F00575464 /* SecondViewController.swift */; };
+		DAEDE6E526EBE9FC00C9D9CC /* NewTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEDE6E426EBE9FC00C9D9CC /* NewTipViewController.swift */; };
+		DAEDE6E726EC4BF000C9D9CC /* privacyBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEDE6E626EC4BF000C9D9CC /* privacyBackgroundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DAE94BBB26E636B600575464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE94BBD26E636B600575464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE94BC326E6724F00575464 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DAEDE6E426EBE9FC00C9D9CC /* NewTipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTipViewController.swift; sourceTree = "<group>"; };
+		DAEDE6E626EC4BF000C9D9CC /* privacyBackgroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyBackgroundViewController.swift; sourceTree = "<group>"; };
 		E22935BC16288452F4DAA4FA /* Pods_week2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_week2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3359C11603B2DFF26B92F5 /* Pods-week2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-week2.debug.xcconfig"; path = "Target Support Files/Pods-week2/Pods-week2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +70,9 @@
 		DAAE24EE26E954DC00B14BB5 /* tipkle */ = {
 			isa = PBXGroup;
 			children = (
+				DAEDE6E626EC4BF000C9D9CC /* privacyBackgroundViewController.swift */,
 				DA94A8EC26E95DC2006B951F /* HomeViewcontroller.swift */,
+				DAEDE6E426EBE9FC00C9D9CC /* NewTipViewController.swift */,
 			);
 			path = tipkle;
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEDE6E726EC4BF000C9D9CC /* privacyBackgroundViewController.swift in Sources */,
 				DAE94BC426E6725000575464 /* SecondViewController.swift in Sources */,
+				DAEDE6E526EBE9FC00C9D9CC /* NewTipViewController.swift in Sources */,
 				DAE94BB426E636B400575464 /* ViewController.swift in Sources */,
 				DA94A8ED26E95DC2006B951F /* HomeViewcontroller.swift in Sources */,
 				DAE94BB026E636B400575464 /* AppDelegate.swift in Sources */,

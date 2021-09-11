@@ -17,7 +17,6 @@ class ViewController: UIViewController {
 //        vc.text = self.propertyTextField.text ?? ""
 //
 //        self.navigationController?.pushViewController(vc, animated: true)
-        
         //present로 전달하는 방식
         let vc = storyboard?.instantiateViewController(withIdentifier: "secondViewController") as! SecondViewController
        // let vc = SecondViewController(nibName:"SecondViewController", bundle: nil)
