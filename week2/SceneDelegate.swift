@@ -36,7 +36,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
         print("sceneDidBecomeActive")
         callBackgroundImage(false)
-
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -46,7 +45,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
         print("sceneDidDisconnect")
         callBackgroundImage(true)
-
     }
 
     //inactive 상태 : 사용자가 앱을 사용하기 어려운, 비활성화되어있는 상태

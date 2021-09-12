@@ -72,7 +72,7 @@ class NewTipViewController: UIViewController {
     //화면이 뷰계층에서 제거 -> 메모리도 같이 제거해줌
     override func viewDidDisappear(_ animated: Bool) {
         print("viewDidisappear()")
-        notiCenter.removeObserver(self)
+        notiCenter.removeObserver(self) //observer를 전부다 메모리에서 해제하는 부분
     }
     
     /*

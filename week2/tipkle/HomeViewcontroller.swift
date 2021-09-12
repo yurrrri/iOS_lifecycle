@@ -35,6 +35,7 @@ class HomeViewcontroller: UIViewController {
         present(alert,animated: true,completion: nil)
     }
     
+    //뷰가 게층에서 없어졌다가 다시 돌아왔을때 실행되는 부분인데
     override func viewWillAppear(_ animated: Bool) {
         print(first)
         
